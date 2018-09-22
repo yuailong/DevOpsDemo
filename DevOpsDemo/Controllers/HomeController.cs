@@ -22,6 +22,12 @@ namespace DevOpsDemo.Controllers
             return View();
         }
 
+
+        public string Test()
+        {
+            return "test";
+        }
+
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
